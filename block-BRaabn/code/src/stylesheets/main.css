@@ -1,0 +1,72 @@
+@import url("https://pro.fontawesome.com/releases/v5.15.0/css/all.css");
+
+body {
+  @apply bg-blue-50;
+}
+
+.flex-class {
+  @apply flex justify-center items-center;
+}
+
+.overlay {
+  @apply absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-25;
+}
+
+.nav {
+  @apply absolute top-0 bottom-0 bg-white shadow-xl flex flex-col justify-around;
+}
+
+.animate-scale {
+  animation-name: scaling;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.25);
+  }
+}
+
+.slide-r-l {
+  animation-name: slide-rl;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes slide-rl {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  100% {
+    left: -40rem;
+    right: 80rem;
+  }
+}
+
+.slide-l-r {
+  animation-name: slide-lr;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes slide-lr {
+  0% {
+    left: -40rem;
+    right: 80rem;
+  }
+  100% {
+    left: 0;
+    right: 0;
+  }
+}

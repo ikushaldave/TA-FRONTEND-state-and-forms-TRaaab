@@ -1,0 +1,11 @@
+.container {
+  @apply max-w-screen-lg p-1 mx-auto;
+}
+
+.list-item {
+  @apply mx-4 px-2 py-1 text-yellow-700 cursor-pointer border-2 rounded-lg border-transparent hover:border-blue-500;
+}
+
+.active {
+  @apply border-blue-500;
+}

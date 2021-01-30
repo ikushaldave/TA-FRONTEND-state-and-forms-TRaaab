@@ -1,0 +1,20 @@
+{
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.showPixelValues": true,
+  "tailwindCSS.includeLanguages": {
+    "\"*.html\"": "\"html\"",
+    "\"*.js\"": "\"javascript\"",
+    "\"*.css\"": "\"css\""
+  },
+  "eslint.format.enable": true,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "jsx"
+  ]
+}

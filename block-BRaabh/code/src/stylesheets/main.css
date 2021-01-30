@@ -1,0 +1,25 @@
+button {
+  display: inline-block;
+  padding: .5rem;
+  margin: .5rem;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr) repeat(1, 1fr);
+}
+
+.selection {
+  padding: 1rem;
+  border: 3px solid greenyellow;
+  border-radius: 5px;
+}
+
+.selected {
+  background-color: lightblue;
+  color: blueviolet;
+  outline: none;
+  border-radius: 3px;
+  border: 3px solid gray;
+}

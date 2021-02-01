@@ -1,0 +1,47 @@
+[
+  {
+    "font-name": "Roboto",
+    "created-by": "Christian Robertson",
+    "styles": 12
+  },
+  {
+    "font-name": "Open Sans",
+    "created-by": "Steve Matteson",
+    "styles": 10
+  },
+  {
+    "font-name": "Poppins",
+    "created-by": "Indian Type Foundry, Jonny Pinhorn",
+    "styles": 18
+  },
+  {
+    "font-name": "Noto Sans",
+    "created-by": "Google",
+    "styles": 4
+  },
+  {
+    "font-name": "Lato",
+    "created-by": "Łukasz Dziedzic",
+    "styles": 10
+  },
+  {
+    "font-name": "Montserrat",
+    "created-by": "Julieta Ulanovsk",
+    "styles": 16
+  },
+  {
+    "font-name": "Raleway",
+    "created-by": "Multiple Designers",
+    "styles": 18
+  },
+  {
+    "font-name": "PT Sans",
+    "created-by": "ParaType",
+    "styles": 4
+  },
+  {
+		"font-name": "IBM Plex Serif",
+		"created-by": "Mike Abbink, Bold Monday",
+		"styles": 14
+  }
+]

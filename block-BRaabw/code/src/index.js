@@ -1,7 +1,7 @@
 import React from "react";
-import { render } from "react-dom";
-export default function App() {
-  return <div>Hello World!</div>;
-}
+import ReactDOM from "react-dom";
+import "./stylesheets/tailwind.css";
+import "./stylesheets/main.css";
+import App from "./components/App";
 
-render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.querySelector("#root"));

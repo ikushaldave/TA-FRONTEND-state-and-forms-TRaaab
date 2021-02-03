@@ -1,7 +1,21 @@
+function orderBy (clothesList, order) {
+	console.log(clothesList, "coming data");
+	switch (order) {
+		case "highToLow":
+			return clothesList.sort((a, b) => b.price - a.price);
+		case "lowToHigh":
+			return clothesList.sort((a, b) => a.price - b.price);
+		default:
+			return clothesList;
+	}
+}
+
 function Clothes (props) {
+	const clothesList = orderBy(props.clothesList, props.shop.orderBy);
+	console.log(clothesList);
   return (
 		<div className="cloth-list flex flex-wrap gap-x-4 gay-y-2" onClick={props.cartIncHandler}>
-			{props.clothesList.map((cloth) => (
+			{clothesList.map((cloth) => (
 				<ClothCard cloth={cloth} key={cloth.id} />
 			))}
 		</div>

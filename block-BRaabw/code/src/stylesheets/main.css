@@ -46,3 +46,8 @@ label {
 #toggle:checked ~ label i::before {
   content: "\f00d";
 }
+
+#toggle:checked ~ label span {
+  top: 4rem;
+  left: -12.5rem;
+}

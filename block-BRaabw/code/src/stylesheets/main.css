@@ -1,0 +1,53 @@
+@import url("https://pro.fontawesome.com/releases/v5.15.0/css/all.css");
+
+.size-btn {
+  @apply bg-gray-200 rounded-full text-xs text-gray-600 w-10 h-10 odd:mx-3 odd:my-1 border hover:border-gray-600 focus:outline-none;
+}
+
+.active {
+  @apply bg-gray-700 text-white;
+}
+
+.cloth-title {
+  min-height: 50px;
+}
+
+.shipping {
+  font-size: 10px;
+  @apply absolute top-4 right-2 bg-gray-800 text-white p-1;
+}
+
+.w-100 {
+  width: 450px;
+}
+
+.cart-nav, .checkout {
+  background-color: #1B1A20;
+}
+
+#toggle {
+  display: none;
+}
+
+.cart-nav {
+  display: none;
+}
+
+label {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#toggle:checked ~ .cart-nav {
+  display: block;
+}
+
+#toggle:checked ~ label i::before {
+  content: "\f00d";
+}
+
+#toggle:checked ~ label span {
+  top: 4rem;
+  left: -12.5rem;
+}
